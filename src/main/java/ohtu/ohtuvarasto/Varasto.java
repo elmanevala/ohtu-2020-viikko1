@@ -56,7 +56,7 @@ public class Varasto {
     public void lisaaVarastoon(double maara) {
         if (maara < 0){ // virhetilanteessa voidaan tehdä 
             return;       // tällainen pikapoistuminenkin!
-        }
+    }
         if (maara <= paljonkoMahtuu()){ // omia aksessoreita voi kutsua
             saldo = saldo + maara;          // ihan suoraan sellaisinaan
         } else {
